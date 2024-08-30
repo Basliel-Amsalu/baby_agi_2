@@ -34,16 +34,11 @@ def contextual_generate_response(metta: MeTTa, *args):
     if not args:
         raise ValueError("No input provided to the function.")
 
-    # Convert the input to a string
     json_input = str(args[0]).strip()
 
-    # Replace the first and last double quotes with single quotes
     if json_input.startswith('"') and json_input.endswith('"'):
         json_input = json_input[1:-1]
 
-    print(f"Processed input: {json_input}")  # Debugging line
-
-    # json_input = {"compound": 0.2, "pos": 0.5, "neu": 0.4, "neg": 0.1}
     json_string = json.dumps(eval(json_input))
     print(json_string)
 
