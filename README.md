@@ -1,6 +1,6 @@
-# Baby AGI
+# Baby AGI 2
 
-Baby AGI is a project that integrates two AI techniques within a unified framework using the Hyperon framework. The project demonstrates how these AI techniques can work together as agents to perform specific AI tasks.
+Baby AGI 2 is a project that integrates two AI simulation techniques within a unified framework using the Hyperon framework. The project demonstrates how these AI techniques can work together as agents to perform specific AI tasks.
 
 ## The Agents
 
@@ -8,7 +8,7 @@ Baby AGI is a project that integrates two AI techniques within a unified framewo
 - **Purpose**: Analyzes the sentiment of a given text.
 - **Functionality**: Simulates sentiment analysis by assigning a sentiment score based on the presence of positive or negative words in the text.
 
-### CNN Agent
+### Response generator Agent
 - **Purpose**: Generates a simple response based on the sentiment analysis.
 - **Functionality**: Simulates response generation by returning a positive or negative reply based on the sentiment score provided by the Sentiment Analyzer Agent.
 
